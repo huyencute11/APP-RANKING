@@ -1,0 +1,14 @@
+.wrapper {
+    width: var(--width);
+    background-color: var(--primary);
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text {
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--black);
+}

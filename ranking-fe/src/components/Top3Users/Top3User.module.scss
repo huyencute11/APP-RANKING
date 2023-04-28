@@ -1,0 +1,21 @@
+.top3user_wrapper {
+
+    display: block;
+    /* margin-top: 10px; */
+}
+
+.top3user_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    height: 200px;
+    justify-content: center;
+}
+
+.top3user_container.top3user_container--modifier {
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 180px;
+    margin-top: 10px;
+}

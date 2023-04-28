@@ -1,0 +1,20 @@
+.wrapper_terms {
+
+    transition: all 0.5s ease;
+    background-color: var(--white);
+}
+
+.term_item {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 10px 10px;
+
+    .term_item_title {
+        margin-left: 2px;
+    }
+
+    .term_item_content {
+        color: var(--text-color);
+
+    }
+}
